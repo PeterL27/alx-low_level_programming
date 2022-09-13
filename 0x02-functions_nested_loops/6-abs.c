@@ -4,7 +4,7 @@
  * _abs - return absolute value of a number
  * @n: parameter
  *
- * Return : absolute value of a number
+ * Return: absolute value of a number
  */
 
 int _abs(int n)
