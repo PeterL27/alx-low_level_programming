@@ -3,8 +3,8 @@
 
 #include <stdio.h>
 
-void positive_or_negative(int 1);
-int largest_number(int, int, int);
+void positive_or_negative(int i);
+int largest_number(int a, int b, int c);
 void print_remainding_days(int, int, int);
 int convert_day(int, int);
 
