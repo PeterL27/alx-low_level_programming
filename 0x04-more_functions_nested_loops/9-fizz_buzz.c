@@ -26,8 +26,8 @@ int main(void)
 		else if (i % 3 == 0)
 			printf("Fizz ");
 		else
-			printf("%d ", h);
-		h++;
+			printf("%d ", i);
+		i++;
 	}
 	return (0);
 }
