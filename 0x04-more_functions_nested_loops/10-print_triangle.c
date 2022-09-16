@@ -1,8 +1,10 @@
+#include <stdio>
 #include "main.h"
 
 /**
  * print_triangle - prints triangle, followed by a new line
  * @size: size of the triangle
+ * Return: returns nothing
  */
 
 void print_triangle(int size)
