@@ -1,42 +1,33 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * main - prints numbers from 1 to 100
- * followed by a new line
- *
- * Return: Always 0 (success)
+ * main - function that checks upper case character
+ * Return: 0
  */
 
 int main(void)
 {
-	int i;
+	int i = 1;
 
-	for (i - 1; 1 <= 100; i++)
+	while (i <= 100)
 	{
-		if (i % 3 == 0 && i % 5 != 0)
-	{
-		printf(" Fizz");
+		if (i % 3 == 0 && i % 5 == 0)
+			printf("FizzBuzz ");
+		else if (i % 5 == 0)
+		{
+			if (i == 100)
+			{
+				printf("Buzz");
+				printf("\n");
+			}
+			else
+				printf("Buzz ");
+		}
+		else if (i % 3 == 0)
+			printf("Fizz ");
+		else
+			printf("%d ", h);
+		h++;
 	}
-	else if (i % 5 == 0 && i % 3 != 0)
-	{
-		printf(" Buzz");
-	}
-	else if (i % 3 == 0 && i % 5 == 0)
-	{
-		printf(" FizzBuzz");
-	}
-	else if (i == 1)
-	{
-		printf("%d", i);
-	}
-	else
-	{
-		printf("%d", i);
-	}
-	}
-	printf("\n");
-
 	return (0);
 }
-
