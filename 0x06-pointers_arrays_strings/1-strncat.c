@@ -2,9 +2,9 @@
 
 /**
  * _strncat - concatenates two strings but add inputted number in bytes
- * @dest: string to be appended
+ * @dest: string to be appended upon
  * @src: string to be completed at end of dest
- * @n: integer paramater
+ * @n: integer paramater to compare index to
  *
  * Return: returns to new concatenated string
  */
