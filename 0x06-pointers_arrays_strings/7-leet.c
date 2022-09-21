@@ -2,9 +2,9 @@
 
 /**
  * leet - a leet function
- * @x: parameter
+ * @x: parameter x
  *
- * Return: returns a string
+ * Return: a string
  */
 
 char *leet(char *x)
@@ -25,7 +25,5 @@ char *leet(char *x)
 		}
 		a++;
 	}
-
 	return (x);
-}
 
