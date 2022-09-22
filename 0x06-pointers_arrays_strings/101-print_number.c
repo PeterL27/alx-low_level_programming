@@ -2,25 +2,25 @@
 
 /**
  * print_number - prints an integer
- * @n: integer to be printed
+ * @n: number to be printed
  *
  * Return: nothing
  */
 
 void print_number(int n)
 {
-	unsigned int i;
+	unsigned int x;
 
 	if (n < 0)
 	{
 		_putchar('-');
-		n * = -1;
+		n *= -1;
 	}
 
-	i = n;
+	i = x;
 
-	if (i / 10)
-		print_number(i / 10);
+	if (x / 10)
+		print_number(x / 10);
 
-	_putchar(i % 10 + '0');
+	_putchar(x % 10 + '0');
 }
