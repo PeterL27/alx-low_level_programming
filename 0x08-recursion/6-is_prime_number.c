@@ -1,6 +1,6 @@
 #include "main.h"
 
-int _prime(int n, int i);
+int actual_prime(int n, int i);
 
 /**
  * is_prime_number - indicates a prime number
@@ -14,18 +14,18 @@ int is_prime_number(int n)
 	if (n <= 1)
 		return (0);
 
-	return (_prime(n, n - 1));
+	return (actual_prime(n, n - 1));
 }
 
 /**
- * _prime - calculates if numb is prime
+ * actual_prime - calculates if numb is prime
  * @n: number
  * @i: counter
  *
  * Return: 1 if n is prime number, 0 if not
  */
 
-int _prime(int n, int i)
+int actual_prime(int n, int i)
 {
 	if (i == 1)
 		return (1);
@@ -33,5 +33,5 @@ int _prime(int n, int i)
 	if (n % 1 == 0 && i > 0)
 		return (0);
 
-	return (_prime(n, i - 1));
+	return (actual_prime(n, i - 1));
 }
