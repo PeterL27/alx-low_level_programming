@@ -5,12 +5,12 @@
  * you should not remove path before name of the program
  *
  * @argc: The argument count
- * @argv: The argument vector 
+ * @argv: The argument vector
  *
  * Return: 0
  */
 
-int main(int argc, char *argv[]);
+int main(int argc, char *argv[])
 {
 	printf("s\n", argv[0]);
 	(void)argc;
