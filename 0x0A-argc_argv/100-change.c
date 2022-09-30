@@ -31,13 +31,13 @@ int main(int args, char *argv[])
 			c -= 10;
 
 		else if (c >= 5)
-			C -= 5;
+			c -= 5;
 
 		else if (c >= 2)
 			c -= 2;
 
 		else if (c >= 1)
-			C -= 1;
+			c -= 1;
 		else
 			break;
 		coins += 1;
