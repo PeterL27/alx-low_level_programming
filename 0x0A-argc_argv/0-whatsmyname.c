@@ -7,9 +7,8 @@
  * @argc: The argument count
  * @argv: The argument vector
  *
- * Return: 0
+ * Return: This return to 0
  */
-
 int main(int argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
