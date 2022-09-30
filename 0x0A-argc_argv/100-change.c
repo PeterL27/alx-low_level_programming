@@ -24,7 +24,7 @@ int main(int args, char *argv[])
 	}
 	for (; c >= 0;)
 	{
-		if (c > 25)
+		if (c >= 25)
 			c -= 25;
 
 		else if (c >= 10)
