@@ -29,7 +29,7 @@ char *_strdup(char *str)
 		inc++;
 	}
 
-	nstr = mallac(sizeof(char) * (inc + 1));
+	nstr = malloc(sizeof(char) * (inc + 1));
 
 	/* check if malloc was succesful */
 	if (nstr == NULL)
