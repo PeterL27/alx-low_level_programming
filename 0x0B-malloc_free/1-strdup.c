@@ -7,7 +7,7 @@
  *
  * Return: NULL if str is NULL
  * pointer to be duplicated on successs
- * Returns NULL if insufficient memory was available
+ * NULL if insufficient memory was available
  */
 
 char *_strdup(char *str)
