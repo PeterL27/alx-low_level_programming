@@ -3,7 +3,7 @@
 
 /**
  * _strdup - turns a pointer to a newly allocated space in memory
- * which contains a copy of the string given as a parameter.
+ * which contains a copy of the string 
  * @str: pointer to string to be duplicated
  *
  * Return: NULL if str is NULL
@@ -42,6 +42,6 @@ char *_strdup(char *str)
 		nstr[i] = str[i];
 	}
 
-	nstr{inc} = '\0';
+	nstr[inc] = '\0';
 	return (nstr);
 }
