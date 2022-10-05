@@ -4,15 +4,15 @@
 
 /**
  * main - program that adds positive numbers
- * @argc: argument count
- * @argv: argument vector
+ * @argc: this is the argument count
+ * @argv: this is the argument vector
  *
  * Return: 0;
  */
 
 int main(int argc, char *argv[])
 {
-	int inc = 0, i;
+	int sum = 0, i;
 
 	if (argc > 1)
 	{
@@ -32,8 +32,8 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		inc += atoi(argv[i]);
+		sum += atoi(argv[i]);
 	}
-	printf("%d\n", inc);
+	printf("%d\n", sum);
 	return (0);
 }
