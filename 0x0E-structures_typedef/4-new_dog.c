@@ -3,9 +3,9 @@
 
 /**
  * new_dog - creates a new dog
- * @name: first member
- * @age: second member
- * @owner: third member
+ * @name: 1st member
+ * @age: 2nd member
+ * @owner: 3rd member
  *
  * Return: NULL if fail
  */
