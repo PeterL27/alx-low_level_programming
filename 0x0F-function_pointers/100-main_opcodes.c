@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	for (cout = 0; count < bytes; count++)
+	for (count = 0; count < bytes; count++)
 	{
 		printf("%02hhx", *((char *)main + count));
 		if (count < bytes - 1)
