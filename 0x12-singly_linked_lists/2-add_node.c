@@ -5,7 +5,8 @@
  * @head: head of linked list
  * @str: strinf to stoe list
  *
- * Return: addrsss of the head
+ * Return: addresss of the head
+ * or NULL if failed
  */
 
 list_t *add_node(list_t **head, const char *str)
